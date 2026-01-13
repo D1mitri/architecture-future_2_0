@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0">
+  <diagram id="gz5R___ts82YHElz0Thb" name="Страница-1">
+    <mxGraphModel dx="1454" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AI-система" vertex="1">
+          <mxGeometry height="60" width="120" x="125" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Финтех система" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DWH" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Фармацевтика" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Электроника" vertex="1">
+          <mxGeometry height="60" width="120" x="965" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Внутренняя система для управления клиниками" vertex="1">
+          <mxGeometry height="60" width="120" x="965" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Пациент" vertex="1">
+          <mxGeometry height="30" width="60" x="90" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Врач" vertex="1">
+          <mxGeometry height="30" width="60" x="160" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Сотрудник клиники" vertex="1">
+          <mxGeometry height="30" width="60" x="230" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Производитель&amp;nbsp;&lt;div&gt;электроники&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="110" x="940" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Покупатель" vertex="1">
+          <mxGeometry height="30" width="90" x="1065" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Пациент" vertex="1">
+          <mxGeometry height="30" width="60" x="580" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Фармацевт" vertex="1">
+          <mxGeometry height="30" width="90" x="480" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Клиент" vertex="1">
+          <mxGeometry height="30" width="60" x="487.5" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Сотрудник банка" vertex="1">
+          <mxGeometry height="30" width="60" x="572.5" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Сотрудник&amp;nbsp;&lt;div&gt;клиники&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="175" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Сотрудник&amp;nbsp;&lt;div&gt;клиники&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="920" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Бухгалтерия" vertex="1">
+          <mxGeometry height="30" width="90" x="1020" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Врач" vertex="1">
+          <mxGeometry height="30" width="50" x="115" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Потоки данных:&lt;div&gt;Сотрудник клиники -&amp;gt; система: актуализация&amp;nbsp;&lt;/div&gt;&lt;div&gt;медицинских данных&lt;/div&gt;&lt;div&gt;Врач -&amp;gt; система: постановка диагнозов и&lt;/div&gt;&lt;div&gt;назначение лечения&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="290" x="45" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Потоки данных:&lt;div&gt;Клиент -&amp;gt; сотрудник банка: передача персональных&amp;nbsp;&lt;/div&gt;&lt;div&gt;данных&lt;/div&gt;&lt;div&gt;Сотрудник банка -&amp;gt; клиент: предоставление&amp;nbsp;&lt;/div&gt;&lt;div&gt;финансовых услуг&lt;/div&gt;&lt;div&gt;Сотрудник банка -&amp;gt; система: добавление данных в&lt;/div&gt;&lt;div&gt;систему&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="330" x="395" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Потоки данных:&lt;div&gt;Бухгалтерия -&amp;gt; система: ведение внутренних&amp;nbsp;&lt;/div&gt;&lt;div&gt;финансовых данных&lt;/div&gt;&lt;div&gt;Сотрудник клиники -&amp;gt; система: управление клиниками&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="340" x="855" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Потоки данных:&lt;div&gt;Сотрудник клиники -&amp;gt; система: добавление&amp;nbsp;&lt;/div&gt;&lt;div&gt;данных по клиентам в систему&lt;/div&gt;&lt;div&gt;Врач -&amp;gt; система: просмотр медицинских карт,&lt;/div&gt;&lt;div&gt;истории болезни, исследования, лечения&lt;/div&gt;&lt;div&gt;Пациент -&amp;gt; сотрудник клиники: предоставление&lt;/div&gt;&lt;div&gt;персональных&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;данных&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="300" x="60" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Потоки данных:&lt;div&gt;Клиент -&amp;gt; фармацевт: запрос медикаментов&lt;/div&gt;&lt;div&gt;Фармацев -&amp;gt; система: поиск медикаментов&amp;nbsp;&lt;/div&gt;&lt;div&gt;в системе&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="280" x="470" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="SVW7HWT8gX2xVw1IYInQ-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Потоки данных:&lt;div&gt;Производитель электроники -&amp;gt; система: просмотр&lt;/div&gt;&lt;div&gt;данных о наличии электроники, инвентаризация&lt;/div&gt;&lt;div&gt;Покупатель -&amp;gt; производитель: покупка электроники,&lt;/div&gt;&lt;div&gt;запрос данных о наличии&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="330" x="955" y="545" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
