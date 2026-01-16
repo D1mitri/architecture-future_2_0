@@ -1,1 +1,55 @@
-<mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/></root></mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.1">
+  <diagram name="Страница-1" id="swqAa8s96HwLZZ3pmgt5">
+    <mxGraphModel dx="1018" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vxW9Z5T08QmJh9fxPgeV-3" edge="1" parent="1" source="vxW9Z5T08QmJh9fxPgeV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vxW9Z5T08QmJh9fxPgeV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vxW9Z5T08QmJh9fxPgeV-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Load Balancer&lt;div&gt;(yandex_lb)&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="vxW9Z5T08QmJh9fxPgeV-5" edge="1" parent="1" source="vxW9Z5T08QmJh9fxPgeV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vxW9Z5T08QmJh9fxPgeV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vxW9Z5T08QmJh9fxPgeV-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Security Group&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(yandex_vpc_sg)&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="vxW9Z5T08QmJh9fxPgeV-9" edge="1" parent="1" source="vxW9Z5T08QmJh9fxPgeV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vxW9Z5T08QmJh9fxPgeV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vxW9Z5T08QmJh9fxPgeV-10" edge="1" parent="1" source="vxW9Z5T08QmJh9fxPgeV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vxW9Z5T08QmJh9fxPgeV-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vxW9Z5T08QmJh9fxPgeV-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;VM&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot;&gt;(&lt;/font&gt;yandex_compute&lt;font color=&quot;rgba(0, 0, 0, 0)&quot;&gt;)&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="vxW9Z5T08QmJh9fxPgeV-12" edge="1" parent="1" source="vxW9Z5T08QmJh9fxPgeV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vxW9Z5T08QmJh9fxPgeV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vxW9Z5T08QmJh9fxPgeV-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;System disk&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot;&gt;(&lt;/font&gt;(20Gb SSD)&lt;font color=&quot;rgba(0, 0, 0, 0)&quot;&gt;)&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="vxW9Z5T08QmJh9fxPgeV-13" edge="1" parent="1" source="vxW9Z5T08QmJh9fxPgeV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vxW9Z5T08QmJh9fxPgeV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vxW9Z5T08QmJh9fxPgeV-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Data disk&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot;&gt;(&lt;/font&gt;(10Gb SSD)&lt;font color=&quot;rgba(0, 0, 0, 0)&quot;&gt;)&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="414" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="vxW9Z5T08QmJh9fxPgeV-15" edge="1" parent="1" source="vxW9Z5T08QmJh9fxPgeV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vxW9Z5T08QmJh9fxPgeV-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vxW9Z5T08QmJh9fxPgeV-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Subnet&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="vxW9Z5T08QmJh9fxPgeV-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;VPC&lt;/div&gt;&lt;div&gt;(app-network)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="vxW9Z5T08QmJh9fxPgeV-16" parent="1" style="text;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Обоснование конфигурации:&#xa;&#xa;1. С точки зрения безопасности предусмотрена многоуровневая защита через Security Groups и VPC. Создание изолированной сетевой среды необходимо для безопасности и управления сетевым трафиком. VPC позволяет сегментировать инфраструктуру, контролировать доступ и обеспечивать приватность ресурсов.&#xa;&#xa;2. Выбор параметров VM: &#xa;- 2 ядра достаточно для обработки веб-трафика средней нагрузки&#xa;- 4 ГБ памяти оптимально для большинства веб-приложений и кэширования&#xa;&#xa;3. Диски:&#xa;- 20Гб системного диска достаточно для ОС, системных файлов и приложения&#xa;- 10Гб для данных на разделение системных и пользовательских данных&#xa;&#xa;4. Архитектура поддерживает горизонтальное масштабирование&#xa;&#xa;5. Высокая надежность благодаря Health checks + автоматическое восстановление&#xa;&#xa;6. Полная автоматизация через Terraform" vertex="1">
+          <mxGeometry height="340" width="620" x="600" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
