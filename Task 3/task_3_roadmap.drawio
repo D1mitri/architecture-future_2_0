@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.2">
   <diagram name="Страница-1" id="n7II_z6TmKRUHMmOJTqW">
-    <mxGraphModel dx="1454" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1566" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,10 +58,10 @@
         <mxCell id="ejPvCT8Pstb-p8VBIJuH-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Внедрение API Gateway" vertex="1">
           <mxGeometry height="40" width="200" x="300" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="ejPvCT8Pstb-p8VBIJuH-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Разработка сервиса аутентификации" vertex="1">
+        <mxCell id="ejPvCT8Pstb-p8VBIJuH-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Разработка сервиса аутентификации + RBAC" vertex="1">
           <mxGeometry height="40" width="200" x="300" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="ejPvCT8Pstb-p8VBIJuH-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Тестирование сервиса аутентификации" vertex="1">
+        <mxCell id="ejPvCT8Pstb-p8VBIJuH-15" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Мониторинг качества данных + алерты" vertex="1">
           <mxGeometry height="40" width="200" x="540" y="410" as="geometry" />
         </mxCell>
         <mxCell id="ejPvCT8Pstb-p8VBIJuH-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Разработка сервиса формирования отчетов" vertex="1">
@@ -130,8 +130,23 @@
         <mxCell id="ejPvCT8Pstb-p8VBIJuH-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Результаты Q1:&lt;div&gt;1. Реализован сервис аутентификации для портала&lt;/div&gt;&lt;div&gt;2. Разработан отдельный сервис формирования отчетов&lt;/div&gt;&lt;div&gt;3. Внедрен, настроен и протестирован API Gateway для портала&lt;/div&gt;&lt;div&gt;4. Начата разработка нового портала&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Результаты Q2:&lt;/div&gt;&lt;div&gt;1. Выполнена интеграция с облачным сервисом&lt;/div&gt;&lt;div&gt;2. Развернута отдельная БД для внутренних сервисов с репликацией и шифрованием конфиденциальных данных&lt;/div&gt;&lt;div&gt;3. Успешно протестирован сервис аутентификации&lt;/div&gt;&lt;div&gt;4. Успешно протестирован сервис формирования отчетов&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Результаты Q3:&lt;/div&gt;&lt;div&gt;1. Развернута отдельная БД для AI сервисов&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Развернута отдельная БД для финтех сервисов&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. Успешное тестирование портала перед запуском&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Результаты Q4:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. Успешный запуск портала&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Выполнены интеграции с сервисом электроники и фармацевтическим сервисом&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. Перенесена бизнес-логика из DWH в отдельные сервисы для AI и финтех.&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="350" width="430" x="221" y="760" as="geometry" />
         </mxCell>
-        <mxCell id="ejPvCT8Pstb-p8VBIJuH-39" parent="1" style="text;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Обоснование планируемых изменений:&#xa;&#xa;На роадмапе представлен план достижения бизнес-целей. К концу года планируется реализовать и выкатить в прод портал самообслуживания, который можно легко масштабировать вне зависимости от количества бизнес-направлений и их целей. В «витрину данных» не будут включаться медицинские карты, истории болезней и результаты медицинских исследований в соответствии с требованиями по обработке персональных данных. &#xa;&#xa;Для AI и финтех бизнес-логика будет перенесена из DWH для того, чтобы обеспечить интеграцию новых бизнес-направлений без необходимости вносить значительные объёмы бизнес-логики в DWH.&#xa;&#xa;Легаси системы параллельно остаются по двум причинам: чтобы иметь возможность их использовать как запасной вариант при возникновении сбоев новых решений после запуска и сфокусировать команду разработки на реализации новых решений. После успешного запуска и отладки можно планировать отключение легаси систем и полноценно использовать новые решения, освободив значительную часть ресурсов инфраструктуры и рассмотреть переход на облако для других сервисов." vertex="1">
-          <mxGeometry height="350" width="430" x="811" y="760" as="geometry" />
+        <mxCell id="ejPvCT8Pstb-p8VBIJuH-39" parent="1" style="text;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Обоснование планируемых изменений:&#xa;&#xa;Q1: Фундамент безопасности&#xa;Зачем бизнесу: Снизить время получения отчетов на 30% и создать основу для безопасного развития новых направлений&#xa;&#xa;Q2: Выделение доменов и гарантии доступности&#xa;Зачем бизнесу: Обеспечить показатель 99.9% доступности критичных систем и начать независимое развитие финтех- и ИИ-направлений&#xa;&#xa;Q3: Экосистема и интеграция партнеров&#xa;Зачем бизнесу: Запустить новые партнерские интеграции и сократить time-to-market для новых продуктов на 40%&#xa;&#xa;Q4: Оптимизация и переход на новую архитектуру&#xa;Зачем бизнесу: Полностью перейти на новую архитектуру, отключить легаси-DWH и обеспечить плановый переход бизнеса" vertex="1">
+          <mxGeometry height="350" width="430" x="780" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="xl-GklPO_LQGrU1CK8J2-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Логирование и мониторинг" vertex="1">
+          <mxGeometry height="40" width="200" x="300" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="xl-GklPO_LQGrU1CK8J2-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Автоматические бэкапы" vertex="1">
+          <mxGeometry height="40" width="200" x="540" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="xl-GklPO_LQGrU1CK8J2-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Тестирование сервиса аутентификации + RBAC" vertex="1">
+          <mxGeometry height="40" width="200" x="540" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="xl-GklPO_LQGrU1CK8J2-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Автоматические отчеты для регуляторов в соответствии с ФЗ" vertex="1">
+          <mxGeometry height="40" width="200" x="1020" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="xl-GklPO_LQGrU1CK8J2-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Вне рамок года выкидываем:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Power Builder - будет заменен полноценно новым порталом&lt;/div&gt;&lt;div&gt;SQL Server - будет выполнен переезд в Postgres&lt;/div&gt;&lt;div&gt;Apache Camel - команда разработки будет изучать другое решение&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="369" x="221" y="1160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
