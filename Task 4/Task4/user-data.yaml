@@ -1,0 +1,35 @@
+package_update: true
+package_upgrade: true
+packages:
+  - curl
+  - jq
+
+write_files:
+  - path: /etc/systemd/system/iam-token-setup.service
+    content: |
+      [Unit]
+      Description=Setup IAM Token
+      After=network.target
+      
+      [Service]
+      Type=oneshot
+      Environment="IAM_TOKEN=${iam_token_env}"
+      ExecStart=/bin/sh -c 'echo $IAM_TOKEN > /opt/iam_token.txt && chmod 600 /opt/iam_token.txt'
+      RemainAfterExit=yes
+      
+      [Install]
+      WantedBy=multi-user.target
+  - path: /etc/profile.d/iam-token.sh
+    content: |
+      export IAM_TOKEN=$(cat /opt/iam_token.txt)
+      alias yc='curl -H "Authorization: Bearer $IAM_TOKEN" -H "Content-Type: application/json" https://iam.api.cloud.yandex.net/iam/v1/tokens'
+
+runcmd:
+  - systemctl daemon-reload
+  - systemctl enable iam-token-setup.service
+  - systemctl start iam-token-setup.service
+
+- apt-get install -y nginx
+- systemctl enable nginx
+- systemctl start nginx
+
